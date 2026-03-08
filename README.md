@@ -1,7 +1,7 @@
 # docker-update
 A script that simplifies running docker compose updates.
 
-
+```
 docker-update.sh
  Pull the latest images for all services in a Docker Compose file,
  recreate changed containers, and clean up dangling images / old layers
@@ -21,3 +21,4 @@ docker-update.sh
    -p, --prune    Also run a full system prune (containers, images, networks,
                   volumes, and build cache) after a successful update
    -r, --recreate Force recreate all containers, even if nothing has changed
+```
